@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Headers = styled.div`
   text-align: center;
-  margin-top: 16.5vh;
+  margin-top: 20vh;
 
   > h1 {
     font-weight: 500;
@@ -25,6 +25,10 @@ export const Headers = styled.div`
     line-height: 30px;
     color: #45494D;
   }
+
+  @media (min-width: 600px) {
+    margin-top: 16.5vh;
+  }
 `;
 
 export const Buttons = styled.div`
@@ -37,7 +41,7 @@ export const Buttons = styled.div`
 
   > button {
     background: #3A3D41;
-    width: 17em;
+    width: 85vw;
     height: 40px;
     color: #fff;
     
@@ -60,6 +64,10 @@ export const Buttons = styled.div`
     & + button {
         margin: 10px 0 0;
       }
+
+    @media (min-width: 600px) {
+      width: 17em;
+    }
   }
 
   @media (min-width: 600px) {

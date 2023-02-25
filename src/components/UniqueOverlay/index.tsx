@@ -14,7 +14,7 @@ export const UniqueOverlay: React.FC = () => {
     <Container>
      <Header>
       <Announcement>
-        Original website: <a href="https://www.tesla.com/">https://www.tesla.com</a>,&nbsp;replicated for study and challenge purposes only.
+        Original website: <a href="https://www.tesla.com/">https://www.tesla.com</a>&nbsp;replicated for study and challenge purposes only.
       </Announcement>
 
       <Logo />

@@ -33,6 +33,7 @@ export const Announcement = styled.div`
 
   @media (max-width: 600px) {
     min-height: 92px;
+    padding: 20px;
     flex-direction: column;
   }
 `;
@@ -151,7 +152,7 @@ export const Footer = styled(motion.footer)`
     
     li {
       list-style: none;
-      font-size: 14px;
+      font-size: 12px;
 
       & + li {
         margin: 10px 0 0;
